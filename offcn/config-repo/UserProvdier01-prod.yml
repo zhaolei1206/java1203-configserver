@@ -16,3 +16,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:10086/eureka,http://localhost:10087/eureka
+#配置显示给消费者的服务器端标识信息
+ProviderVersion: UserProvider001:7.7.7V
+
